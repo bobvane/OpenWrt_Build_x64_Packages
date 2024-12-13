@@ -215,7 +215,7 @@ package/utils/mhz package/libs/libnftnl package/firmware/wireless-regdb
 
 git_sparse_clone master "https://github.com/sbwml/openwrt_pkgs" "openwrt_pkgs" luci-app-gowebdav luci-app-ota luci-app-socat \
 git_sparse_clone openwrt-23.05 "https://github.com/openwrt/luci" "opluci" applications/luci-app-watchcat \
-git_sparse_clone main "https://github.com/NueXini/NueXini_Packages" "luci-app-adbyby-plus" luci-app-adbyby-plus \
+git_sparse_clone "main" "https://github.com/NueXini/NueXini_Packages.git" "NueXini-adbyby" luci-app-adbyby-plus
 
 #mv -n openwrt-passwall/* ./ ; rm -Rf openwrt-passwall
 rm -rf openssl
