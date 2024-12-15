@@ -160,6 +160,7 @@ git clone --depth 1 https://github.com/BROBIRD/openwrt-r8168
 git clone --depth 1 https://github.com/sbwml/package_kernel_r8125
 git clone --depth 1 https://github.com/sbwml/luci-app-filemanager
 git clone --depth 1 https://github.com/asvow/luci-app-tailscale
+git clone --depth 1 https://github.com/kiddin9/kwrt-packages kwrt-packages && mv -n kwrt-packages/*adbyby* ./ ; rm -rf kwrt-packages
 
 svn export https://github.com/coolsnowwolf/luci/trunk/libs/luci-lib-ipkg
 svn export https://github.com/x-wrt/packages/trunk/net/nft-qos
