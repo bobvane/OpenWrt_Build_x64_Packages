@@ -161,6 +161,7 @@ git clone --depth 1 https://github.com/sbwml/package_kernel_r8125
 git clone --depth 1 https://github.com/sbwml/luci-app-filemanager
 git clone --depth 1 https://github.com/asvow/luci-app-tailscale
 git clone --depth 1 https://github.com/kiddin9/kwrt-packages kwrt-packages && mv -n kwrt-packages/*adbyby* ./ ; rm -rf kwrt-packages
+rm -rf shadowsocksr-libev ; git clone --depth 1 https://github.com/oppen321/package oppen321-packages && mv -n oppen321-packages/shadowsocksr-libev ./ ; rm -rf oppen321-packages
 
 svn export https://github.com/coolsnowwolf/luci/trunk/libs/luci-lib-ipkg
 svn export https://github.com/x-wrt/packages/trunk/net/nft-qos
