@@ -162,7 +162,6 @@ git clone --depth 1 https://github.com/sbwml/luci-app-filemanager
 git clone --depth 1 https://github.com/asvow/luci-app-tailscale
 git clone --depth 1 https://github.com/kiddin9/kwrt-packages kwrt-packages && mv -n kwrt-packages/*adbyby* ./ ; rm -rf kwrt-packages
 rm -rf shadowsocksr-libev ; git clone --depth 1 https://github.com/oppen321/package oppen321-packages && mv -n oppen321-packages/shadowsocksr-libev ./ ; rm -rf oppen321-packages
-git clone --depth 1 https://github.com/tty228/luci-app-wechatpush
 git clone --depth 1 https://github.com/schen39/luci-app-serverchan
 
 svn export https://github.com/coolsnowwolf/luci/trunk/libs/luci-lib-ipkg
