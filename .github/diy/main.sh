@@ -209,6 +209,7 @@ git_sparse_clone openwrt-23.05 "https://github.com/openwrt/luci" "opluci" applic
 git_sparse_clone main "https://github.com/NueXini/NueXini_Packages" "NueXini-adbyby" luci-app-adbyby-plus
 git_sparse_clone master "https://github.com/QiuSimons/luci-app-daed" "QiuSimons" daed luci-app-daed
 git_sparse_clone rebase "https://github.com/QiuSimons/luci-app-daed-next" "QiuSimons-next" daed-next luci-app-daed-next
+git_sparse_clone master "https://github.com/immortalwrt/luci" "immortalwrt-luci" applications/luci-app-frpc applications/luci-app-frps applications/luci-app-syncdial applications/luci-app-nps
 
 rm -rf openssl
 mv -n openwrt-package/* ./ ; rm -Rf openwrt-package
