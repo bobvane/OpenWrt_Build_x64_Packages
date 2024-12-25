@@ -153,26 +153,6 @@ git clone --depth 1 https://github.com/kiddin9/kwrt-packages kwrt-packages && mv
 rm -rf shadowsocksr-libev ; git clone --depth 1 https://github.com/oppen321/package oppen321-packages && mv -n oppen321-packages/shadowsocksr-libev ./ ; rm -rf oppen321-packages
 git clone --depth 1 https://github.com/schen39/luci-app-serverchan
 
-svn export https://github.com/coolsnowwolf/luci/trunk/libs/luci-lib-ipkg
-svn export https://github.com/x-wrt/packages/trunk/net/nft-qos
-svn export https://github.com/x-wrt/luci/trunk/applications/luci-app-nft-qos
-svn export https://github.com/Lienol/openwrt-package/branches/other/lean/luci-app-autoreboot
-svn export https://github.com/Ysurac/openmptcprouter-feeds/trunk/luci-app-iperf
-svn export https://github.com/QiuSimons/OpenWrt-Add/trunk/luci-app-irqbalance
-svn export https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-control-speedlimit
-svn export https://github.com/openwrt/luci/branches/openwrt-22.03/applications/luci-app-wireguard
-svn export https://github.com/lucikap/Brukamen/trunk/luci-app-ua2f
-svn export https://github.com/openwrt/packages/trunk/net/shadowsocks-libev
-svn export https://github.com/kenzok8/jell/trunk/vsftpd-alt
-svn export https://github.com/kenzok8/jell/trunk/luci-app-bridge
-svn export https://github.com/coolsnowwolf/luci/trunk/luci-app-frps
-svn export https://github.com/coolsnowwolf/luci/trunk/luci-app-frpc
-svn export https://github.com/oppen321/Zero-package/trunk/cpufreq
-svn export https://github.com/oppen321/Zero-package/trunk/luci-app-cpufreq
-svn export https://github.com/oppen321/Zero-package/trunk/luci-app-usb-printer
-svn export https://github.com/oppen321/Zero-package/trunk/luci-app-zerotier
-svn export https://github.com/oppen321/Zero-package/trunk/zerotier
-
 git_sparse_clone master "https://github.com/coolsnowwolf/packages" "leanpack" net/miniupnpd net/mwan3 \
 multimedia/gmediarender multimedia/UnblockNeteaseMusic-Go net/phtunnel net/frp net/headscale net/go-aliyundrive-webdav \
 net/verysync net/vlmcsd net/dnsforwarder net/tcpping net/netatalk net/pgyvpn net/msd_lite \
