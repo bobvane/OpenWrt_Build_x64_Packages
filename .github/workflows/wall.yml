@@ -3,7 +3,7 @@ name: Auto_Sync_Packages
 on:
   push:
   schedule:
-    - cron: 0 */4 * * *
+    - cron: 0 2 * * 0
   repository_dispatch:
   workflow_dispatch:
     inputs:
